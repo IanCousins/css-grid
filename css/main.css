@@ -87,3 +87,28 @@ footer {
     grid-area: footer;
     background: lightgray;
 }
+
+#features{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+    /* grid-template-rows: repeat(2, auto);
+    grid-gap: 10px 30px; */
+}
+
+#features i {
+    font-size: 2em;
+}
+
+ul#features {
+    margin: 0; padding: 0;
+}
+
+ul#features li{
+    background-color: lightgrey;
+    padding: 1em; 
+}
+
+ul#features li p {
+    color: 4c4c4c;
+}
